@@ -11,7 +11,7 @@
 | 2 | 2 OOP + 3 Ruby avançado + 4 Git | feito |
 | 3 | 5 Rails basics | feito |
 | 4 | 6 Active Record + 7 SQL | feito |
-| 5 | 8 RSpec + 9 Security + 10 API | |
+| 5 | 8 RSpec + 9 Security + 10 API | feito |
 | 6 | 11 Docker + 12 Sidekiq | |
 | 7 | 13 Hotwire + 14 Cable + 15 Performance | |
 | 8 | 16 Princípios + 17 Arquitetura | |

@@ -107,6 +107,45 @@ export default defineConfig({
           { text: 'Redis', link: '/07-sql-databases/08-redis' },
           { text: 'Cache', link: '/07-sql-databases/09-caching' }
         ]
+      },
+      {
+        text: 'Testing',
+        collapsed: false,
+        items: [
+          { text: 'RSpec — model spec', link: '/08-testing/01-rspec-model' },
+          { text: 'Request spec', link: '/08-testing/02-request-spec' },
+          { text: 'System spec', link: '/08-testing/03-system-spec' },
+          { text: 'FactoryBot', link: '/08-testing/04-factorybot' },
+          { text: 'Mocks e stubs', link: '/08-testing/05-mocks-stubs' },
+          { text: 'TDD', link: '/08-testing/06-tdd' },
+          { text: 'Coverage', link: '/08-testing/07-coverage' }
+        ]
+      },
+      {
+        text: 'Security',
+        collapsed: true,
+        items: [
+          { text: 'XSS', link: '/09-security/01-xss' },
+          { text: 'CSRF', link: '/09-security/02-csrf' },
+          { text: 'SQL Injection', link: '/09-security/03-sql-injection' },
+          { text: 'Autenticação', link: '/09-security/04-authentication' },
+          { text: 'Autorização (Pundit)', link: '/09-security/05-authorization' },
+          { text: 'Encryption', link: '/09-security/06-encryption' },
+          { text: 'HTTPS / SSL', link: '/09-security/07-https-ssl' },
+          { text: 'OWASP Top 10', link: '/09-security/08-owasp-top-10' }
+        ]
+      },
+      {
+        text: 'API',
+        collapsed: true,
+        items: [
+          { text: 'REST', link: '/10-api/01-rest' },
+          { text: 'Serializers', link: '/10-api/02-serializers' },
+          { text: 'OpenAPI', link: '/10-api/03-openapi' },
+          { text: 'Rate limiting', link: '/10-api/04-rate-limiting' },
+          { text: 'Versionamento', link: '/10-api/05-versioning' },
+          { text: 'CORS', link: '/10-api/06-cors' }
+        ]
       }
     ],
 

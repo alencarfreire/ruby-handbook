@@ -77,33 +77,33 @@
 
 ## 8. Testing
 
-* 8.1 RSpec — model spec
-* 8.2 Request spec
-* 8.3 System spec
-* 8.4 FactoryBot
-* 8.5 Mocks e stubs
-* 8.6 TDD
-* 8.7 Coverage
+* [8.1 RSpec — model spec](08-testing/01-rspec-model.md)
+* [8.2 Request spec](08-testing/02-request-spec.md)
+* [8.3 System spec](08-testing/03-system-spec.md)
+* [8.4 FactoryBot](08-testing/04-factorybot.md)
+* [8.5 Mocks e stubs](08-testing/05-mocks-stubs.md)
+* [8.6 TDD](08-testing/06-tdd.md)
+* [8.7 Coverage](08-testing/07-coverage.md)
 
 ## 9. Security
 
-* 9.1 XSS
-* 9.2 CSRF
-* 9.3 SQL Injection
-* 9.4 Autenticação
-* 9.5 Autorização (Pundit)
-* 9.6 Encryption
-* 9.7 HTTPS / SSL
-* 9.8 OWASP Top 10
+* [9.1 XSS](09-security/01-xss.md)
+* [9.2 CSRF](09-security/02-csrf.md)
+* [9.3 SQL Injection](09-security/03-sql-injection.md)
+* [9.4 Autenticação](09-security/04-authentication.md)
+* [9.5 Autorização (Pundit)](09-security/05-authorization.md)
+* [9.6 Encryption](09-security/06-encryption.md)
+* [9.7 HTTPS / SSL](09-security/07-https-ssl.md)
+* [9.8 OWASP Top 10](09-security/08-owasp-top-10.md)
 
 ## 10. API
 
-* 10.1 REST
-* 10.2 Serializers (jbuilder / Alba)
-* 10.3 OpenAPI
-* 10.4 Rate limiting
-* 10.5 Versionamento
-* 10.6 CORS
+* [10.1 REST](10-api/01-rest.md)
+* [10.2 Serializers (jbuilder / Alba)](10-api/02-serializers.md)
+* [10.3 OpenAPI](10-api/03-openapi.md)
+* [10.4 Rate limiting](10-api/04-rate-limiting.md)
+* [10.5 Versionamento](10-api/05-versioning.md)
+* [10.6 CORS](10-api/06-cors.md)
 
 ## 11. Docker & CI
 
