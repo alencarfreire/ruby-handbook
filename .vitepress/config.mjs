@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Início', link: '/' },
       { text: 'Roadmap', link: '/roadmap' },
-      { text: 'GitHub', link: 'https://github.com/alencarfreire' }
+      { text: 'GitHub', link: 'https://github.com/alencarfreire/ruby-handbook' }
     ],
 
     sidebar: [
@@ -83,7 +83,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/alencarfreire' }
+      { icon: 'github', link: 'https://github.com/alencarfreire/ruby-handbook' }
     ],
 
     footer: {

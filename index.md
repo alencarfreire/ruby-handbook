@@ -14,7 +14,7 @@ hero:
       link: /roadmap
     - theme: alt
       text: GitHub
-      link: https://github.com/alencarfreire
+      link: https://github.com/alencarfreire/ruby-handbook
 
 features:
   - icon: 💎
@@ -42,4 +42,4 @@ Piloto no ar: [1.1 Tipos em Ruby](/01-ruby-basics/01-types). O resto das seçõe
 
 Formato inspirado no handbook PHP/Laravel da CodeMate. Conteúdo novo, em pt-BR, escrito por IA com [Vinícius Freire](https://github.com/alencarfreire).
 
-O código vai para o GitHub quando o piloto fechar.
+O código está no [GitHub](https://github.com/alencarfreire/ruby-handbook).
