@@ -82,4 +82,4 @@ Escrito por IA com [Vinícius Freire](https://github.com/alencarfreire). Regras 
 
 ---
 
-*Feito com ❤️ por [Vinícius Freire](https://github.com/alencarfreire)*
+*Feito com 🤖 por [Vinícius Freire](https://github.com/alencarfreire)*

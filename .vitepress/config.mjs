@@ -186,7 +186,7 @@ export default defineConfig({
 
     footer: {
       message: 'Publicado sob a licença MIT',
-      copyright: 'Feito com ❤️ por Vinícius Freire'
+      copyright: 'Feito com 🤖 por Vinícius Freire'
     },
 
     search: {
