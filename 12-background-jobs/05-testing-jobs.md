@@ -65,15 +65,7 @@ Padrão no Rails 7.1+. Job enfileirado vira item de array no processo. Sem Redis
 | `perform_enqueued_jobs` | drena a fila e executa |
 | `assert_performed_jobs` / `have_been_performed` | o job já rodou |
 
-`perform_now` não passa por essa fila. Chama `perform` no processo atual. Serve para o unitário. Não prova enqueue.
-
-Em spec que não é `type: :job`, inclua o helper:
-
-```ruby
-RSpec.describe Checkout, type: :service do
-  include ActiveJob::TestHelper
-end
-```
+`perform_now` não passa por essa fila. Chama `perform` no processo atual. Serve para o unitário. Não prova enqueue. Spec que não é `type: :job` inclui o helper na mão.
 
 **Na entrevista:**
 > "No teste o adapter `:test` guarda o job em memória. ActiveJob::TestHelper lê essa fila. Eu não preciso do Sidekiq ligado para a suíte verde."
