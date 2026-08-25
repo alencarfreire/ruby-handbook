@@ -1,32 +1,39 @@
 # Roadmap
 
-Plano do Junior ao Senior. O piloto é só **1.1 Tipos**. O resto entra depois da aprovação do tom.
+~120 temas. Um arquivo por tema. Tom do piloto (`01-types.md`) é lei.
+
+## Fases
+
+| Fase | O quê | Status |
+|---|---|---|
+| 0 | Repo, GUIDE, piloto | feito |
+| 1 | Resto da seção 1 (Ruby basics) | pendente |
+| 2 | 2 OOP + 3 Ruby avançado + 4 Git | |
+| 3 | 5 Rails basics | |
+| 4 | 6 Active Record + 7 SQL | |
+| 5 | 8 RSpec + 9 Security + 10 API | |
+| 6 | 11 Docker + 12 Sidekiq | |
+| 7 | 13 Hotwire + 14 Cable + 15 Performance | |
+| 8 | 16 Princípios + 17 Arquitetura | |
+| 9 | 18 Soft skills + 19 Prática | |
+| 10 | Sidebar/nav, build, GitHub | |
 
 ## Junior
 
-1. Tipos, variáveis, operadores, blocos
-2. Array, Hash, Enumerable
-3. Classes, modules, mixins
-4. Bundler, gem, Zeitwerk
-5. Rails: rotas, controller, view, model
-6. Active Record básico, migrations
-7. Git no time
+Seções 1–5 e Git. Primeiro emprego Rails.
 
 ## Middle
 
-8. `includes` / N+1, callbacks, transactions
-9. Strong params, validation
-10. RSpec: model spec, request spec
-11. Sidekiq / Active Job
-12. Turbo Frames e Streams
-13. Devise ou `has_secure_password` + Pundit
-14. REST API
+Seções 6–12. N+1, RSpec, Sidekiq, auth, API.
 
 ## Senior
 
-15. Service Object, Form Object, Query Object
-16. Action Cable
-17. Cache, Russian Doll, Solid Cache
-18. Performance e índices
-19. Deploy, Docker, CI
-20. Entrevista de system design em Rails
+Seções 13–19. Hotwire de verdade, cache, arquitetura, system design.
+
+## Regras de execução
+
+- Um arquivo por vez. Sem dump de pasta.
+- Não traduzir o php-handbook. Escrever do zero.
+- Sem capítulo de Service Container / Facade.
+- Rails 7.1+ / Ruby 3.3+.
+- Commit por seção. Piloto já aprovado: pode seguir sem parar no fim de cada arquivo.
