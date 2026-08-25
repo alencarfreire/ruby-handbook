@@ -107,20 +107,20 @@
 
 ## 11. Docker & CI
 
-* 11.1 Docker
-* 11.2 Dockerfile
-* 11.3 Compose
-* 11.4 CI/CD
-* 11.5 Deploy
-* 11.6 Monitoring
+* [11.1 Docker](11-docker/01-docker.md)
+* [11.2 Dockerfile](11-docker/02-dockerfile.md)
+* [11.3 Compose](11-docker/03-compose.md)
+* [11.4 CI/CD](11-docker/04-ci-cd.md)
+* [11.5 Deploy](11-docker/05-deploy.md)
+* [11.6 Monitoring](11-docker/06-monitoring.md)
 
 ## 12. Background jobs
 
-* 12.1 Active Job
-* 12.2 Sidekiq
-* 12.3 Retry, dead set, uniqueness
-* 12.4 Jobs agendados
-* 12.5 Testar jobs
+* [12.1 Active Job](12-background-jobs/01-active-job.md)
+* [12.2 Sidekiq](12-background-jobs/02-sidekiq.md)
+* [12.3 Retry, dead set, uniqueness](12-background-jobs/03-retry-dead-uniqueness.md)
+* [12.4 Jobs agendados](12-background-jobs/04-scheduled-jobs.md)
+* [12.5 Testar jobs](12-background-jobs/05-testing-jobs.md)
 
 ## 13. Hotwire
 

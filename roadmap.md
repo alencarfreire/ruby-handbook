@@ -12,7 +12,7 @@
 | 3 | 5 Rails basics | feito |
 | 4 | 6 Active Record + 7 SQL | feito |
 | 5 | 8 RSpec + 9 Security + 10 API | feito |
-| 6 | 11 Docker + 12 Sidekiq | |
+| 6 | 11 Docker + 12 Sidekiq | feito |
 | 7 | 13 Hotwire + 14 Cable + 15 Performance | |
 | 8 | 16 Princípios + 17 Arquitetura | |
 | 9 | 18 Soft skills + 19 Prática | |
