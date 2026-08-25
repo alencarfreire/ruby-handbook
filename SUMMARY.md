@@ -55,25 +55,25 @@
 
 ## 6. Active Record
 
-* 6.1 Models e migrations
-* 6.2 Associations
-* 6.3 Query interface
-* 6.4 Validations e callbacks
-* 6.5 N+1 (`includes` / `eager_load` / `preload`)
-* 6.6 Transactions e locks
-* 6.7 Scopes e Query Object
+* [6.1 Models e migrations](06-active-record/01-models-migrations.md)
+* [6.2 Associations](06-active-record/02-associations.md)
+* [6.3 Query interface](06-active-record/03-query-interface.md)
+* [6.4 Validations e callbacks](06-active-record/04-validations-callbacks.md)
+* [6.5 N+1 (`includes` / `eager_load` / `preload`)](06-active-record/05-n-plus-one.md)
+* [6.6 Transactions e locks](06-active-record/06-transactions-locks.md)
+* [6.7 Scopes e Query Object](06-active-record/07-scopes-query-objects.md)
 
 ## 7. SQL & Databases
 
-* 7.1 SQL básico
-* 7.2 Agregações
-* 7.3 Índices
-* 7.4 Transactions
-* 7.5 Normalização
-* 7.6 N+1 no banco
-* 7.7 Otimização de query
-* 7.8 Redis
-* 7.9 Cache
+* [7.1 SQL básico](07-sql-databases/01-sql-basics.md)
+* [7.2 Agregações](07-sql-databases/02-aggregates.md)
+* [7.3 Índices](07-sql-databases/03-indexes.md)
+* [7.4 Transactions](07-sql-databases/04-transactions.md)
+* [7.5 Normalização](07-sql-databases/05-normalization.md)
+* [7.6 N+1 no banco](07-sql-databases/06-n-plus-one.md)
+* [7.7 Otimização de query](07-sql-databases/07-query-optimization.md)
+* [7.8 Redis](07-sql-databases/08-redis.md)
+* [7.9 Cache](07-sql-databases/09-caching.md)
 
 ## 8. Testing
 

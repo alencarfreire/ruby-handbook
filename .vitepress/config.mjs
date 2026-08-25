@@ -79,6 +79,34 @@ export default defineConfig({
           { text: 'Convenções e generators', link: '/05-rails-basics/07-conventions-generators' },
           { text: 'Config e environments', link: '/05-rails-basics/08-config-environments' }
         ]
+      },
+      {
+        text: 'Active Record',
+        collapsed: false,
+        items: [
+          { text: 'Models e migrations', link: '/06-active-record/01-models-migrations' },
+          { text: 'Associations', link: '/06-active-record/02-associations' },
+          { text: 'Query interface', link: '/06-active-record/03-query-interface' },
+          { text: 'Validations e callbacks', link: '/06-active-record/04-validations-callbacks' },
+          { text: 'N+1', link: '/06-active-record/05-n-plus-one' },
+          { text: 'Transactions e locks', link: '/06-active-record/06-transactions-locks' },
+          { text: 'Scopes e Query Object', link: '/06-active-record/07-scopes-query-objects' }
+        ]
+      },
+      {
+        text: 'SQL & Databases',
+        collapsed: true,
+        items: [
+          { text: 'SQL básico', link: '/07-sql-databases/01-sql-basics' },
+          { text: 'Agregações', link: '/07-sql-databases/02-aggregates' },
+          { text: 'Índices', link: '/07-sql-databases/03-indexes' },
+          { text: 'Transactions', link: '/07-sql-databases/04-transactions' },
+          { text: 'Normalização', link: '/07-sql-databases/05-normalization' },
+          { text: 'N+1 no banco', link: '/07-sql-databases/06-n-plus-one' },
+          { text: 'Otimização de query', link: '/07-sql-databases/07-query-optimization' },
+          { text: 'Redis', link: '/07-sql-databases/08-redis' },
+          { text: 'Cache', link: '/07-sql-databases/09-caching' }
+        ]
       }
     ],
 
