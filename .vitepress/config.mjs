@@ -7,6 +7,14 @@ export default defineConfig({
 
   ignoreDeadLinks: true,
 
+  base: '/ruby-handbook/',
+
+  head: [
+    ['meta', { property: 'og:locale', content: 'pt_BR' }],
+    ['meta', { property: 'og:title', content: 'Ruby/Rails Interview Handbook' }],
+    ['meta', { property: 'og:url', content: 'https://alencarfreire.github.io/ruby-handbook/' }]
+  ],
+
   themeConfig: {
     nav: [
       { text: 'Início', link: '/' },
@@ -145,6 +153,29 @@ export default defineConfig({
           { text: 'Rate limiting', link: '/10-api/04-rate-limiting' },
           { text: 'Versionamento', link: '/10-api/05-versioning' },
           { text: 'CORS', link: '/10-api/06-cors' }
+        ]
+      },
+      {
+        text: 'Docker & CI',
+        collapsed: true,
+        items: [
+          { text: 'Docker', link: '/11-docker/01-docker' },
+          { text: 'Dockerfile', link: '/11-docker/02-dockerfile' },
+          { text: 'Compose', link: '/11-docker/03-compose' },
+          { text: 'CI/CD', link: '/11-docker/04-ci-cd' },
+          { text: 'Deploy', link: '/11-docker/05-deploy' },
+          { text: 'Monitoring', link: '/11-docker/06-monitoring' }
+        ]
+      },
+      {
+        text: 'Background jobs',
+        collapsed: false,
+        items: [
+          { text: 'Active Job', link: '/12-background-jobs/01-active-job' },
+          { text: 'Sidekiq', link: '/12-background-jobs/02-sidekiq' },
+          { text: 'Retry, dead set, uniqueness', link: '/12-background-jobs/03-retry-dead-uniqueness' },
+          { text: 'Jobs agendados', link: '/12-background-jobs/04-scheduled-jobs' },
+          { text: 'Testar jobs', link: '/12-background-jobs/05-testing-jobs' }
         ]
       }
     ],
