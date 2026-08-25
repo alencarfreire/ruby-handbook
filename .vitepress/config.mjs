@@ -19,7 +19,13 @@ export default defineConfig({
         text: 'Fundamentos de Ruby',
         collapsed: false,
         items: [
-          { text: 'Tipos', link: '/01-ruby-basics/01-types' }
+          { text: 'Tipos', link: '/01-ruby-basics/01-types' },
+          { text: 'Variáveis e escopo', link: '/01-ruby-basics/02-variables-and-scope' },
+          { text: 'Operadores', link: '/01-ruby-basics/03-operators' },
+          { text: 'Controle de fluxo', link: '/01-ruby-basics/04-control-flow' },
+          { text: 'Métodos e blocks', link: '/01-ruby-basics/05-methods-and-blocks' },
+          { text: 'Enumerable', link: '/01-ruby-basics/06-enumerable' },
+          { text: 'Strings, symbols e regex', link: '/01-ruby-basics/07-strings-symbols-regex' }
         ]
       }
     ],

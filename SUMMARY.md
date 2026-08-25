@@ -6,12 +6,12 @@
 ## 1. Fundamentos de Ruby
 
 * [1.1 Tipos](01-ruby-basics/01-types.md)
-* 1.2 Variáveis e escopo
-* 1.3 Operadores
-* 1.4 Controle de fluxo
-* 1.5 Métodos e blocks
-* 1.6 Enumerable
-* 1.7 Strings, symbols e regex
+* [1.2 Variáveis e escopo](01-ruby-basics/02-variables-and-scope.md)
+* [1.3 Operadores](01-ruby-basics/03-operators.md)
+* [1.4 Controle de fluxo](01-ruby-basics/04-control-flow.md)
+* [1.5 Métodos e blocks](01-ruby-basics/05-methods-and-blocks.md)
+* [1.6 Enumerable](01-ruby-basics/06-enumerable.md)
+* [1.7 Strings, symbols e regex](01-ruby-basics/07-strings-symbols-regex.md)
 
 ## 2. OOP em Ruby
 

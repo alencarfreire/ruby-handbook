@@ -7,7 +7,7 @@
 | Fase | O quê | Status |
 |---|---|---|
 | 0 | Repo, GUIDE, piloto | feito |
-| 1 | Resto da seção 1 (Ruby basics) | pendente |
+| 1 | Resto da seção 1 (Ruby basics) | feito |
 | 2 | 2 OOP + 3 Ruby avançado + 4 Git | |
 | 3 | 5 Rails basics | |
 | 4 | 6 Active Record + 7 SQL | |
