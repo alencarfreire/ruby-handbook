@@ -8,7 +8,7 @@
 |---|---|---|
 | 0 | Repo, GUIDE, piloto | feito |
 | 1 | Resto da seção 1 (Ruby basics) | feito |
-| 2 | 2 OOP + 3 Ruby avançado + 4 Git | |
+| 2 | 2 OOP + 3 Ruby avançado + 4 Git | feito |
 | 3 | 5 Rails basics | |
 | 4 | 6 Active Record + 7 SQL | |
 | 5 | 8 RSpec + 9 Security + 10 API | |

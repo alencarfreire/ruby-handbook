@@ -15,43 +15,43 @@
 
 ## 2. OOP em Ruby
 
-* 2.1 Classes e objetos
-* 2.2 Herança
-* 2.3 Modules e mixins
-* 2.4 `self` e visibilidade
-* 2.5 `include` vs `prepend` vs `extend`
-* 2.6 Comparable
-* 2.7 Metaprogramação
-* 2.8 `method_missing`
+* [2.1 Classes e objetos](02-oop/01-classes-objects.md)
+* [2.2 Herança](02-oop/02-inheritance.md)
+* [2.3 Modules e mixins](02-oop/03-modules-mixins.md)
+* [2.4 `self` e visibilidade](02-oop/04-self-and-visibility.md)
+* [2.5 `include` vs `prepend` vs `extend`](02-oop/05-include-prepend-extend.md)
+* [2.6 Comparable](02-oop/06-comparable.md)
+* [2.7 Metaprogramação](02-oop/07-metaprogramming.md)
+* [2.8 `method_missing`](02-oop/08-method-missing.md)
 
 ## 3. Ruby avançado
 
-* 3.1 Gems e Bundler
-* 3.2 Zeitwerk e autoload
-* 3.3 Exceções
-* 3.4 Proc, lambda e `yield`
-* 3.5 Enumerator e lazy
-* 3.6 Threads, Fiber, Ractor
-* 3.7 Ruby 3.x
+* [3.1 Gems e Bundler](03-ruby-advanced/01-gems-bundler.md)
+* [3.2 Zeitwerk e autoload](03-ruby-advanced/02-zeitwerk-autoload.md)
+* [3.3 Exceções](03-ruby-advanced/03-exceptions.md)
+* [3.4 Proc, lambda e `yield`](03-ruby-advanced/04-procs-lambdas.md)
+* [3.5 Enumerator e lazy](03-ruby-advanced/05-enumerators-lazy.md)
+* [3.6 Threads, Fiber, Ractor](03-ruby-advanced/06-concurrency.md)
+* [3.7 Ruby 3.x](03-ruby-advanced/07-ruby-3.md)
 
 ## 4. Git
 
-* 4.1 Git básico
-* 4.2 Branching
-* 4.3 Rebase vs merge
-* 4.4 Git Flow / GitHub Flow
-* 4.5 Conflitos
+* [4.1 Git básico](04-git/01-git-basics.md)
+* [4.2 Branching](04-git/02-branching.md)
+* [4.3 Rebase vs merge](04-git/03-rebase-vs-merge.md)
+* [4.4 Git Flow / GitHub Flow](04-git/04-git-flow.md)
+* [4.5 Conflitos](04-git/05-conflicts.md)
 
 ## 5. Fundamentos de Rails
 
-* 5.1 Arquitetura e boot
-* 5.2 Rotas
-* 5.3 Controllers
-* 5.4 Views e helpers
-* 5.5 Request, response e strong params
-* 5.6 Concerns
-* 5.7 Convenções e generators
-* 5.8 Config e environments
+* [5.1 Arquitetura e boot](05-rails-basics/01-architecture-boot.md)
+* [5.2 Rotas](05-rails-basics/02-routes.md)
+* [5.3 Controllers](05-rails-basics/03-controllers.md)
+* [5.4 Views e helpers](05-rails-basics/04-views-helpers.md)
+* [5.5 Request, response e strong params](05-rails-basics/05-request-response.md)
+* [5.6 Concerns](05-rails-basics/06-concerns.md)
+* [5.7 Convenções e generators](05-rails-basics/07-conventions-generators.md)
+* [5.8 Config e environments](05-rails-basics/08-config-environments.md)
 
 ## 6. Active Record
 
