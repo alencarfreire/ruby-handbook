@@ -2,6 +2,8 @@
 
 > Guia para entrevista de Ruby/Rails: exemplos reais, exercícios práticos e respostas prontas.
 
+**Em desenvolvimento.** Seções 1–12 no ar. Hotwire, Cable, performance, arquitetura e prática ainda vão entrar.
+
 ## Sobre o livro
 
 Este handbook tem:
@@ -19,26 +21,34 @@ Este handbook tem:
 - **Senior** — organizar o que você já sabe e revisar antes da entrevista
 - **Entrevistadores** — base de perguntas
 
-## Estrutura
+## Já no ar (fases 0–6)
 
-### Nível 1: Fundamentos de Ruby (Junior)
+### Junior
 - Ruby Basics — tipos, variáveis, blocos, Enumerable
 - OOP em Ruby — classes, modules, mixins, `self`
-- Ruby avançado — gem, Bundler, metaprogramação
-
-### Nível 2: Rails (Middle)
+- Ruby avançado — gem, Bundler, Zeitwerk, exceções
+- Git — branch, rebase, conflitos
 - Rails Basics — rotas, MVC, concern, boot
-- Rails avançado — Active Record, jobs, Turbo
-- SQL & Databases — queries, transações, N+1
 
-### Nível 3: Arquitetura & Testes
-- RSpec, FactoryBot, TDD
-- Service Object, Form Object, Policy
-- Segurança — XSS, CSRF, autenticação
+### Middle
+- Active Record — associations, N+1, transactions, scopes
+- SQL & Databases — índices, isolamento, Redis, cache
+- Testing — RSpec, FactoryBot, TDD
+- Security — XSS, CSRF, Pundit, OWASP
+- API — REST, serializers, rate limit, CORS
+- Docker, CI, deploy
+- Background jobs — Active Job, Sidekiq
 
-### Nível 4: Infra
-- Docker, Sidekiq, Redis, cache
-- Performance, Action Cable
+## Entra depois (fases 7–9)
+
+- Hotwire — Turbo Drive, Frames, Streams, Stimulus, morphing
+- Action Cable
+- Performance — Russian Doll, Solid Cache, scaling
+- Princípios — SOLID, Service Object, Form Object, Presenter
+- Arquitetura — MVC de verdade, Query Object, Policy, DDD
+- Soft skills e prática — code review, system design, debug, casos reais
+
+Plano completo em [`roadmap.md`](roadmap.md) e [`SUMMARY.md`](SUMMARY.md).
 
 ## Como usar
 
@@ -57,14 +67,16 @@ Este handbook tem:
 
 ## Por onde começar
 
-- [Tipos em Ruby](01-ruby-basics/01-types.md) — piloto
-- O resto das seções entra depois que o tom do piloto for aprovado
+- [Tipos em Ruby](01-ruby-basics/01-types.md)
+- [Arquitetura e boot](05-rails-basics/01-architecture-boot.md)
+- [N+1](06-active-record/05-n-plus-one.md)
+- [Roadmap](roadmap.md)
 
 ## Origem
 
 Formato inspirado no [PHP/Laravel Interview Handbook](https://github.com/alencarfreire/php-handbook) da CodeMate. Conteúdo escrito do zero para Ruby/Rails — não é tradução.
 
-## Tradução / autoria
+## Autoria
 
 Escrito por IA com [Vinícius Freire](https://github.com/alencarfreire). Regras em [`GUIDE.md`](GUIDE.md).
 

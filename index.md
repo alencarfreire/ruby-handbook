@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Ruby/Rails Handbook
   text: Guia para quem desenvolve Ruby/Rails
-  tagline: Do básico à arquitetura. Tradução do formato — conteúdo escrito do zero. Por IA com Vinícius Freire
+  tagline: Em desenvolvimento. Seções 1–12 no ar. Por IA com Vinícius Freire
   actions:
     - theme: brand
       text: Começar
@@ -19,11 +19,11 @@ hero:
 features:
   - icon: 💎
     title: Ruby de entrevista
-    details: Tipos, blocos, Enumerable, objects. O que cai na tela e o que você fala.
+    details: Tipos, blocos, Enumerable, OOP, gems, Zeitwerk. O que cai na tela e o que você fala.
 
   - icon: 🚂
     title: Rails 7+
-    details: Active Record, Hotwire, Sidekiq, RSpec. Sem analogia forçada com Laravel.
+    details: Rotas, Active Record, RSpec, Pundit, API, Sidekiq. Sem analogia forçada com Laravel.
 
   - icon: 🎯
     title: Na entrevista
@@ -31,12 +31,27 @@ features:
 
   - icon: 🗺️
     title: Roadmap
-    details: Junior → Senior. Você sabe o que estudar em cada etapa.
+    details: Junior → Senior. O que já existe e o que ainda vai entrar.
 ---
 
 ## Estado
 
-Piloto no ar: [1.1 Tipos em Ruby](/01-ruby-basics/01-types). O resto das seções entra depois que o tom for aprovado.
+**Em desenvolvimento.** As seções 1–12 estão no ar (fases 0–6).
+
+**Já dá para estudar**
+- Fundamentos de Ruby, OOP, Ruby avançado, Git
+- Rails basics, Active Record, SQL
+- RSpec, segurança, API
+- Docker, CI, Active Job, Sidekiq
+
+**Entra depois**
+- Hotwire (Turbo, Stimulus, morphing)
+- Action Cable
+- Performance
+- Princípios e arquitetura (Service Object, Form Object, DDD)
+- Soft skills e prática (system design, debug, casos reais)
+
+Detalhe no [roadmap](/roadmap).
 
 ## Sobre o projeto
 
